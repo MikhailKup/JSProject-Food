@@ -1,24 +1,38 @@
 .footer {
-    min-height: 180px;
-    background-color: $dark;
-    padding: 45px 0 50px 0;
-    color: #fff;
-    .container {
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    .subtitle {
-        font-size: 20px;
-    }
-    .link {
-        display: block;
-        margin-top: 15px;
-        font-size: 16px;
-        color: #fff;
-    }
-    .call {
-        text-align: right;
-    }
+	min-height: 180px;
+	background-color: $dark;
+	padding: 45px 0 50px 0;
+	color: #fff;
+	.container {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.subtitle {
+		font-size: 20px;
+		&__item {
+			display: flex;
+			align-items: flex-end;
+		}
+		&__icon {
+			display: block;
+			position: relative;
+			margin-left: 12px;
+			top: 5px;
+			img {
+				width: 22px;
+				height: 22px;
+			}
+		}
+	}
+	.link {
+		display: block;
+		margin-top: 15px;
+		font-size: 16px;
+		color: #fff;
+	}
+	.call {
+		text-align: right;
+	}
 }

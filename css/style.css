@@ -608,6 +608,20 @@ a {
 .footer .subtitle {
   font-size: 20px;
 }
+.footer .subtitle__item {
+  display: flex;
+  align-items: flex-end;
+}
+.footer .subtitle__icon {
+  display: block;
+  position: relative;
+  margin-left: 12px;
+  top: 5px;
+}
+.footer .subtitle__icon img {
+  width: 22px;
+  height: 22px;
+}
 .footer .link {
   display: block;
   margin-top: 15px;
@@ -676,4 +690,28 @@ a {
   display: block;
   width: 280px;
   margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .sidepanel {
+    display: none;
+  }
+  .offer__advantages {
+    width: 420px;
+    margin-top: 50px;
+  }
+  .offer__advantages h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .offer__advantages h2:first-child {
+    margin-top: 70px;
+  }
+  .offer__advantages-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+  }
 }

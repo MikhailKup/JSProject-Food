@@ -1,0 +1,25 @@
+@media (max-width: 1400px) {
+	.sidepanel {
+		display: none;
+  	}
+	.offer {
+		&__advantages {
+			width: 420px;
+			margin-top: 50px;
+			h2 {
+				font-weight: bold;
+				font-size: 20px;
+				margin-top: 20px;
+				&:first-child {
+					margin-top: 70px;
+				}
+			}
+			&-text {
+				margin-top: 20px;
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 21px;
+			}
+	  }
+	}
+}
