@@ -1,8 +1,10 @@
 {
+  "homepage": "https://MikhailKup.github.io/JSProject-Food",
   "name": "food",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MikhailKup",
@@ -24,6 +26,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "gh-pages": "^6.1.1"
   }
 }
